@@ -5,7 +5,7 @@ sslDir="/etc/nginx/certs"
 nginxConfFile="seafile.conf"
 
 [ "${autoconf}" = 'true' ] || exit 0
-if [ -f /etc/nginx/conf.d/"${nginxConfFile}" ]
+if [ -f /etc/nginx/sites-available/"${nginxConfFile}" ]
 then
 	echo "Configuration Found, Loading it"
 else
