@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -yq \
 	python-flup 
 
 ENV autostart true
-ENV autoconf true
+ENV autoconf false
 ENV SEAFILE_IP seafile-container
 ENV SEAHUB_PORT 8000
 ENV FILESERVER_PORT 8082
