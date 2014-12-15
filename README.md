@@ -1,2 +1,2 @@
-docker-nginx-seafile
+docker-nginx
 ====================
